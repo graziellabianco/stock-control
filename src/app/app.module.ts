@@ -16,7 +16,7 @@ import {ToastModule } from "primeng/toast";
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,6 +24,7 @@ import {ToastModule } from "primeng/toast";
     BrowserAnimationsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    ReactiveFormsModule,
 
     //Prime NG
     CardModule,
